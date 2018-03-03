@@ -14,4 +14,8 @@ So I integrated UIExplorer with the cli-generated skeleton app , and it compiles
  ## SPECIFY ROOT DIRS
 I understand we should place .js files to a seperate folder.    
 **BUT JESUS HOW?**    
+
+I see , we may change it in AppDelegate.m. But I'm too lazy to implement the change.    
+`jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.macos" fallbackResource:nil];`
+
 ![rootdir](https://wx3.sinaimg.cn/mw690/005yrqtrly1fozqmc5simj30wc0cawgw.jpg)
